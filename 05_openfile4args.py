@@ -5,3 +5,4 @@ contenu = contenu + "\n"
 with open(fichier, "w") as f:
     f.write(contenu * int(nbr))
     f.write(fin)
+    
