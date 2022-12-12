@@ -1,15 +1,3 @@
-# Twinkle, twinkle, little star,
-#     How I wonder what you are!
-#         Up above the world so high,
-#         Like a diamond in the sky.
-# Twinkle, twinkle, little star,
-#     How I wonder what you are
+# Utiliser retour à la ligne et tabulation avec \n et \t
 
-l1 = "Twinkle, twinkle, little star,\n"
-l2 = "  How I wonder what you are!\n"
-l3 = "      Up above the world so high,\n"
-l4 = "      Like a diamond in the sky.\n"
-l5 = "Twinkle, twinkle, little star,\n"
-l6 = "  How I wonder what you are"
-
-print (l1,l2,l3,l4,l5,l6)
+print ("Twinkle, twinkle, little star,\n\tHow I wonder what you are!\n\t\tUp above the world so high,\n\t\tLike a diamond in the sky.\nTwinkle, twinkle, little star,\n\tHow I wonder what you are")
