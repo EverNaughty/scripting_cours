@@ -16,7 +16,7 @@ parser = argparse.ArgumentParser(
 # Listing des arguments attendus
 parser.add_argument('-e', '--emoji')
 # Valeur par défaut si argument non utilisé
-parser.add_argument('-n', '--number', default=5)
+parser.add_argument('-n', '--number', choices=range(3,15), default=5, type=int)
 
 args = parser.parse_args()
 
@@ -28,10 +28,7 @@ nombre = int(nombre)
 # Multiplication
 result = emoji*nombre
 # Pas d'opération au dessus de 15
-if nombre >= 16 or nombre <= 2:
-    print ("Invalide")
-else:
-    print (result)
+print (result)
 
 
 
