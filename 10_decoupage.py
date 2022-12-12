@@ -4,10 +4,11 @@
 import re
 
 # Définition de la fonction
-def mafonction(a):
+def fonction_separateur(a):
     # Découpage en utilisant le séparateur espace
     decoupe = re.split(' ', a)
-    print (decoupe)
-
+    return decoupe
+    
 a = input("Donnez un texte avec des espaces : ")
-(mafonction(a))
+
+print (fonction_separateur(a))
