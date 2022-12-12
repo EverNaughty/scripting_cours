@@ -16,7 +16,7 @@ parser = argparse.ArgumentParser(
 # Listing des arguments attendus
 parser.add_argument('-e', '--emoji')
 # Valeur par défaut si argument non utilisé
-parser.add_argument('-n', '--number', choices=range(3,15), default=5, type=int)
+parser.add_argument('-n', '--number', choices=range(3,15), default=5, type=int) # Voir manuel, plus de possibilités !
 
 args = parser.parse_args()
 
