@@ -27,9 +27,8 @@ nombre = args.number
 nombre = int(nombre)
 # Multiplication
 result = emoji*nombre
-
 # Pas d'opération au dessus de 15
-if nombre >= 16:
+if nombre >= 16 or nombre <= 2:
     print ("Invalide")
 else:
     print (result)
