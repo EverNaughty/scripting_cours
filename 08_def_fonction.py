@@ -2,18 +2,14 @@
 
 #Définition de la fonction
 def compteur(texte):
-
     UP = 0
     LOW = 0
-
     for i in texte:
         if i in updico:
             UP += 1
-
     for i in texte:
         if i in lowdico:
             LOW += 1
-
     print ("Majuscules :",UP,"et minuscules :",LOW)
 
 #Inventaire de lettres
@@ -21,7 +17,7 @@ updico = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 lowdico = "abcdefghijklmnopqrstuvwxyz"
 
 #Récupération du string str
-texte = input("Give me a text !")
+texte = input("Indiquez un texte :")
 
 print (compteur(texte))
 
