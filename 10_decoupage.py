@@ -1,4 +1,4 @@
-# String : a chaque espace découpé dans une liste
+# Instruction : Découper une phrase à chaque espace
 
 # Import du module REGEX
 import re
