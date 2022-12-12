@@ -2,16 +2,12 @@
 
 def mafonction(a):
     maj_count = 0
-    #Exctraction des 4 premiers caractères
     prems = a[:4]
-    #Analyse de type de lettre avec compteur
     for word in prems:
         if word.isupper():
             maj_count += 1
-    #Condition sur le nombre de maj
     if maj_count >= 2:
-        a = a.upper()
-        print (a)
+        print (a.upper())
     else:
         print (a)     
 
