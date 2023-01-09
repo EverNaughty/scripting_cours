@@ -8,6 +8,6 @@ import sys
 fichier = input("Indiquer le fichier à éditer :")
 contenu = input("Quel texte ajoutez-vous ?")
 
-fichier, contenu = sys.argv[1], sys.argv[2]
-with open(fichier, "w") as f:
-    f.write(contenu)
+#fichier, contenu = sys.argv[1], sys.argv[2]
+with open(fichier, "a") as f:
+    f.write(contenu + "\n")
