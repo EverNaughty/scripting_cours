@@ -14,7 +14,7 @@ fichiers = input("Indique les fichiers de log à utiliser (séparés par des esp
 print ("La recherche aura lieu dans les fichier suivants :",fichiers)
 
 # Créer la commande à exécuter
-commande = "grep -i {} {}".format(recherche, fichiers)
+commande = f"grep -i {recherche} {fichiers}"
 
 # Note perso :
 # Les accolades permettent de déclarer les variables après grâce au .format(1, 2) dans l'ordre
